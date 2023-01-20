@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="behavior.js"></script>
+    <title>Calculator</title> 
+</head>
+<body>
+    <section>
+        <div><input type="text"  id="screen"></div>
+        <div>
+    <input type="text" readonly id="watch"> 
+      </div>
+        <div>
+         <button onclick="squareRoot()" >Sqrt</button> 
+         <button  onclick="square()">Sq</button> 
+         <button  onclick=" clearScreen()">C</button> 
+         <button  onclick=" deleteKey()"><--</button> 
+      </div>
+        <div>
+            <button onclick="writeKey(7)" >7</button> 
+            <button  onclick="writeKey(8)">8</button> 
+            <button  onclick="writeKey(9)">9</button> 
+            <button  onclick="writeKey('/')">/</button> 
+         </div>
+         <div>
+            <button  onclick="writeKey(4)">4</button> 
+            <button  onclick="writeKey(5)">5</button> 
+            <button  onclick="writeKey(6)">6</button> 
+            <button  onclick="writeKey('*')">x</button> 
+         </div>
+         <div>
+            <button  onclick="writeKey(1)" >1</button> 
+            <button  onclick="writeKey(2)">2</button> 
+            <button  onclick="writeKey(3)">3</button> 
+            <button  onclick="writeKey('-')">-</button> 
+         </div>
+         <div>
+            <button  onclick="writeKey('+')">+</button> 
+            <button  onclick="writeKey(0)">0</button> 
+            <button  onclick="writeKey('.')">.</button> 
+            <button  onclick="equal()">=</button> 
+         </div>
+     </section>
+     
+ </body>
+ </html>
+</html>
